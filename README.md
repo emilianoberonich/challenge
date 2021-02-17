@@ -1,15 +1,13 @@
-==================
-Challenge Solution
-==================
+
+# Challenge Solution
 
 
-Problem
-==========
+## Problem
+
 Import the physicians from the noteworth_challenge_api service and import them into a database.
 
 
-Solution
-===========
+## Solution
 Uses Django to solve the challenge. It is provided an endpoint that on demand, reads the providers API, manage the authentication and imports the physician data on a database. The service has some tolerance to errors in the connection or in the API.
 
 The service is:
@@ -18,8 +16,7 @@ The service is:
 The database engine used is SQLite.
 
 
-Improvements
-============
+## Improvements
 The following changes can be done to improve this solution:
 - Add more security, storing the secret_key and other important configuration variables in a json file or environment variables.
 - Complete the authentication.
@@ -27,4 +24,4 @@ The following changes can be done to improve this solution:
 - The Vagrant configuration needs more work to be ready at the first initialization without additional steps.
 - Fix some format errors during the data importation that may happen sometimes.
 - Add more tests.
-- Replace prints by logging in console for debugging purpose.
+- Replace prints by logs in console for debugging purpose.
