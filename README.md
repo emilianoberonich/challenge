@@ -15,6 +15,8 @@ The service is:
 
 The database engine used is SQLite.
 
+The Api host can be updated on the project settings to change for another url.
+
 
 ## Improvements
 The following changes can be done to improve this solution:

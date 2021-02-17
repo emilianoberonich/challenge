@@ -146,3 +146,4 @@ STATIC_URL = '/static/'
 AUTH_USER_MODEL = 'core.User'
 
 SECURE_TOKEN = None
+IMPORT_API_HOST = 'http://127.0.0.1:5000'

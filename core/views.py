@@ -21,7 +21,7 @@ class ImportPhysicianApiView(APIView):
         authorization to the API.
         """
 
-        host = 'http://127.0.0.1:5000'
+        host = settings.IMPORT_API_HOST
         auth_endpoint = '/auth'
         providers_endpoint = '/providers'
         TRIES = 2
